@@ -1,0 +1,39 @@
+*{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    height: 80vh;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+span{
+    align-items: center;
+    color: darkturquoise;
+    display: inline-flex;
+}
+
+span::after{
+    content: '';
+    width: 3px;
+    height: 51px;
+    display: inline-block;
+    background-color: brown;
+    margin-left: 4px;
+}
+
+h1 span::after{
+    height: 51px;
+}
+
